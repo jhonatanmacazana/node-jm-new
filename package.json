@@ -1,17 +1,27 @@
 {
   "name": "jm-new",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "0.1.0",
+  "description": "Boilerplate for different type of projects",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "author": "jmacazana <jhonatan.macazana@utec.edu.pe>",
   "license": "MIT",
+  "keywords": [
+    "boilerplate",
+    "starter",
+    "projects"
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/jhonatanmacazana/node-jm-new.git"
+    "url": "https://github.com/jhonatanmacazana/node-jm-new"
   },
   "bugs": {
     "url": "https://github.com/jhonatanmacazana/node-jm-new/issues"
   },
   "homepage": "https://github.com/jhonatanmacazana/node-jm-new#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
   "devDependencies": {
     "@types/jest": "^26.0.20",
     "jest": "^26.6.3",
@@ -31,8 +41,5 @@
   },
   "files": [
     "lib/**/*"
-  ],
-  "dependencies": {
-    "axios": "^0.21.1"
-  }
+  ]
 }
