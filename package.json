@@ -4,6 +4,14 @@
   "main": "index.js",
   "author": "jmacazana <jhonatan.macazana@utec.edu.pe>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jhonatanmacazana/node-jm-new.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jhonatanmacazana/node-jm-new/issues"
+  },
+  "homepage": "https://github.com/jhonatanmacazana/node-jm-new#readme",
   "devDependencies": {
     "@types/jest": "^26.0.20",
     "jest": "^26.6.3",
